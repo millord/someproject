@@ -1,30 +1,6 @@
-import styled from "styled-components"
-import Grid from '@material-ui/core/Grid';
 
-const StyledContainer = styled(Grid)`
-`
 
-const StyledBox1 = styled(Grid)`
-  width:200px;
-  height:200px;
-  border: 2px solid black;
-  background-color:blue;
-  color:black;
-`
-const StyledBox2 = styled(Grid)`
-width:200px;
-height:200px;
-border: 2px solid black;
-background-color:red;
-color:black;
-`
-const StyledBox3 = styled(Grid)`
-width:200px;
-height:200px;
-border: 2px solid black;
-background-color:teal;
-color:black;
-`
+import {StyledBox1, StyledBox2, StyledBox3,StyledContainer } from "./styles"
 
 
 
