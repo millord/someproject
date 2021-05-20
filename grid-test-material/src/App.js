@@ -1,10 +1,12 @@
 import { StyledBox1, StyledBox2, StyledBox3, StyledContainer } from "./styles";
 
 function App() {
+
   const isComponentUp = true
 
   isComponentUp && "This is the header"
   
+
 
   return (
     <StyledContainer container justify="center">
