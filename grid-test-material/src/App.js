@@ -1,6 +1,11 @@
 import { StyledBox1, StyledBox2, StyledBox3, StyledContainer } from "./styles";
 
 function App() {
+  const isComponentUp = true
+
+  isComponentUp && "This is the header"
+  
+
   return (
     <StyledContainer container justify="center">
       <h1>Footer is being tested</h1>
@@ -14,7 +19,7 @@ function App() {
       >
         BOX3
       </StyledBox3>
-      <h1>Title here</h1>
+      <h1>Title here{isComponentUp || "no header"}</h1>
       <form>
         <input type="text"/>
         <input type="password"/>
