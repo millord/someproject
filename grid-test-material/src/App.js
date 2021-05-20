@@ -14,6 +14,11 @@ function App() {
       >
         BOX3
       </StyledBox3>
+      <form>
+        <input type="text"/>
+        <input type="password"/>
+        <button>Submit</button>
+      </form>
     </StyledContainer>
   );
 }
