@@ -21,7 +21,7 @@ function App() {
       >
         BOX3
       </StyledBox3>
-      <h1>Title here{isComponentUp || "no header"}</h1>
+      <h1>This is the forked version of someproject{isComponentUp || "no header"}</h1>
       <form>
         <input type="text"/>
         <input type="password"/>
