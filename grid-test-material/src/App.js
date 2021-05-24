@@ -23,7 +23,8 @@ function App() {
       </StyledBox3>
       <h1>Title here{isComponentUp || "no header"}</h1>
       <form>
-        <input type="text"/>
+      <input type="text"/>
+        <input type="email" placeholder="enter your email here"/>
         <input type="password"/>
         <button>Submit</button>
       </form>
